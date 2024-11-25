@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Receita</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/img/Cream_and_Black_Simple_Elegant_Catering_Food_Logo_3.png" alt="Logo"  height="150" class="icone">
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Pagina Inicial</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#noticias">Ultimas Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Receitas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Comentarios">Comentário</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#formulario">Formulário</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/macarrao-banner-carrosel.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Beige_Red_Bold_Sweet_Cake_Instagram_Post_1200_x_400_px.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/yogurt-banner-carrosel.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      
+    <div>
+      <h1 id="noticias" class="ultimas-noticias">Ultimas Noticias</h1>
+    </div>
+
+    <div class="card-group">
+      <div class="container cards-wrapper d-flex gx-5">
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/alho-card-noticia.png" class="card-img" alt="alho noticia">
+          <div class="card-body">
+            <h2 class="card-title">Use o alho desta forma em suas plantas e árvores e diga adeus a qualquer praga</h2>
+            <p class="card-text">O alho é um ingrediente mágico na cozinha, mas que também pode ser muito útil para o bem-estar do seu jardim!</p>
+            <a href=" https://www.tudogostoso.com.br/noticias/use-o-alho-desta-forma-em-suas-plantas-e-arvores-e-diga-adeus-a-qualquer-praga-a16811.htm" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/cafe-banner-noticia.png" class="card-img" alt="imagem café">
+          <div class="card-body">
+            <h3 class="card-title">Se você tem borra de café em casa, você tem um tesouro</h3>
+            <p class="card-text">Não despeje no lixo o resto da borra de café! Na verdade, ela pode ser muito útil no dia a dia!</p>
+            <a href="https://www.tudogostoso.com.br/noticias/se-voce-tem-borra-de-cafe-em-casa-voce-tem-um-tesouro-5-maneiras-de-aproveitar-o-ingrediente-no-dia-a-dia-a16804.htm" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/geladeira-card-noticia.png" class="card-img" alt="imagem geladeira aberta">
+          <div class="card-body">
+            <h4 class="card-title">Sua comida fica com gosto de geladeira? Saiba porque isso acontece e como evitar!</h4>
+            <p class="card-text">Entenda o que faz com que a comida fique com “gosto de geladeira” quando armazenada no eletrodoméstico!</p>
+            <a href="https://www.tudogostoso.com.br/noticias/sua-comida-fica-com-gosto-de-geladeira-saiba-porque-isso-acontece-e-como-evitar-a12629.htm" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+  <h2 id="comentarios">Comentarios</h2>
+
+    <section class="comentario">
+      <div class="caixa">
+
+        <img class="usuario" src="/img/1.png" alt="">
+        <h3>Pedro Amaro</h3>
+        <p>Todos aqui em casa amaram a receita de macarrão, fez o maior sucessooooo!!!😍😍😍 
+        </p>
+      </div>
+
+      <div class="caixa">
+
+        <img class="usuario" src="/img/2.png" alt="">
+        <h3>Bianca Andrade</h3>
+        <p>Todos aqui em casa amaram a receita de macarrão, fez o maior sucessooooo!!!😍😍😍 
+        </p>
+      </div>
+
+      <div class="caixa">
+
+        <img class="usuario" src="/img/3.png" alt="">
+        <h3>Leticia Alves</h3>
+        <p>Amei a dica do café, consegui limpar todas as panelas aqui de casa 😁 
+        </p>
+      </div>
+    </section>
+
+      <h6 id="menu-receita"  class="Menu">Menu de Receitas</h6>
+
+    <div class="card-group">
+      <div class="container cards-wrapper d-flex gx-5">
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/panqueca-1851249_640.jpg" class="card-img" alt="alho noticia">
+          <div class="card-body">
+            <h5 class="card-title">Uma Receita de Panquecas de Beterraba com Mel</h5>
+            <p class="card-text">Um Café da mnhã reforçado, com o melhor saber da beterraba</p>
+            <a href="/Panquecas.html" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/round-rice-with-sauce-shrimp.jpg" class="card-img" alt="imagem café">
+          <div class="card-body">
+            <h5 class="card-title">Uma Receita de Risoto de Tomate com Queijo</h5>
+            <p class="card-text">Um saber bem natural com um toque de tomate  fresco para torna saboroso!</p>
+            <a href="/Risoto.html" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 18rem;">
+          <img src="/img/sopa-cremosa-8021566_640.jpg" class="card-img" alt="imagem sopa Cremosa">
+          <div class="card-body">
+            <h5 class="card-title">Receita de Sopa Cremosa de Pimentão Vermelho</h5>
+            <p class="card-text">Alivio em forma de Sopa. Diente de seu saber marcante e um tom de vermelho para aquecer seu fim de tarde!</p>
+            <a href="/Sopa.html" class="btn btn-outline-danger">Saiba Mais</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+    <main>
+      <div class="container">
+        <form id="formulario" class="row g-3">
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Fulano Ciclano" required="">
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="validationDefault01" placeholder="(xx) xxxx-xxxx">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentário</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" cols="5"></textarea>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked"  >Desejo receber notificações promocionais por e-mail!</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+            <label class="form-check-label" for="flexSwitchCheckChecked">Desejo receber notificações promocionais por WhatsApp!</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+            <label class="form-check-label" for="flexSwitchCheckChecked">Desejo receber notificações promocionais por SMS!</label>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-outline-danger">Enviar Comentário</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </main>
+
+<main>
+      <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+            <h4>Sobre Nós</h4>
+            <p>um espaço criado com amor para compartilhar receitas que aquecem o coração e a alma. Somos apaixonados por gastronomia e acreditamos que cozinhar é uma forma de espalhar alegria e criar memórias inesquecíveis. Aqui, você encontrará desde pratos clássicos até criações únicas, todas explicadas de maneira simples e prática. Nosso objetivo é inspirar você a experimentar novos sabores e descobrir o chef que existe em você! 🤍😊</p>
+            </div>
+            <div class="footer-section">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">Últimas Notícias</a></li>
+                <li><a href="#">Comentários</a></li>
+                <li><a href="#">Deixe aqui se comentário</a></li>
+            </ul>
+            </div>
+            <div class="footer-section">
+            <h4>Contatos</h4>
+            <div class="contatos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+    
+                <a>(82) 99927-9948</a>
+    
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+    
+                <a>banana@gmail.com</a>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Site Criado por Rodrigo, Crystian e Bruno | Todos os direitos reservados.</p>
+        </div>
+        </footer>
+    </main>
+  </body>
+</html>
